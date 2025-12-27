@@ -1,0 +1,469 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="Integrated_CMIP" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>Integrated_CMIP</text>
+    </name>
+    <page id="n0">
+      <place id="Transaction:p_3">
+        <name>
+          <text>Transaction:p_3</text>
+        </name>
+      </place>
+      <place id="MSG:m3">
+        <name>
+          <text>MSG:m3</text>
+        </name>
+      </place>
+      <place id="Research:p_3">
+        <name>
+          <text>Research:p_3</text>
+        </name>
+      </place>
+      <place id="Research:sink">
+        <name>
+          <text>Research:sink</text>
+        </name>
+      </place>
+      <place id="Research:p_4">
+        <name>
+          <text>Research:p_4</text>
+        </name>
+      </place>
+      <place id="Compliance:source">
+        <name>
+          <text>Compliance:source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="Compliance:sink">
+        <name>
+          <text>Compliance:sink</text>
+        </name>
+      </place>
+      <place id="Decision:source">
+        <name>
+          <text>Decision:source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="Decision:p_5">
+        <name>
+          <text>Decision:p_5</text>
+        </name>
+      </place>
+      <place id="Decision:p_3">
+        <name>
+          <text>Decision:p_3</text>
+        </name>
+      </place>
+      <place id="Decision:p_7">
+        <name>
+          <text>Decision:p_7</text>
+        </name>
+      </place>
+      <place id="Research:source">
+        <name>
+          <text>Research:source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="Research:p_6">
+        <name>
+          <text>Research:p_6</text>
+        </name>
+      </place>
+      <place id="Research:p_7">
+        <name>
+          <text>Research:p_7</text>
+        </name>
+      </place>
+      <place id="Risk:p_4">
+        <name>
+          <text>Risk:p_4</text>
+        </name>
+      </place>
+      <place id="Risk:p_3">
+        <name>
+          <text>Risk:p_3</text>
+        </name>
+      </place>
+      <place id="MSG:m2">
+        <name>
+          <text>MSG:m2</text>
+        </name>
+      </place>
+      <place id="Transaction:source">
+        <name>
+          <text>Transaction:source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="Risk:sink">
+        <name>
+          <text>Risk:sink</text>
+        </name>
+      </place>
+      <place id="RES:r2">
+        <name>
+          <text>RES:r2</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="Transaction:p_6">
+        <name>
+          <text>Transaction:p_6</text>
+        </name>
+      </place>
+      <place id="Transaction:p_5">
+        <name>
+          <text>Transaction:p_5</text>
+        </name>
+      </place>
+      <place id="Decision:p_8">
+        <name>
+          <text>Decision:p_8</text>
+        </name>
+      </place>
+      <place id="Research:p_5">
+        <name>
+          <text>Research:p_5</text>
+        </name>
+      </place>
+      <place id="Decision:p_6">
+        <name>
+          <text>Decision:p_6</text>
+        </name>
+      </place>
+      <place id="Compliance:p_4">
+        <name>
+          <text>Compliance:p_4</text>
+        </name>
+      </place>
+      <place id="Compliance:p_5">
+        <name>
+          <text>Compliance:p_5</text>
+        </name>
+      </place>
+      <place id="Compliance:p_3">
+        <name>
+          <text>Compliance:p_3</text>
+        </name>
+      </place>
+      <place id="Compliance:p_6">
+        <name>
+          <text>Compliance:p_6</text>
+        </name>
+      </place>
+      <place id="Decision:sink">
+        <name>
+          <text>Decision:sink</text>
+        </name>
+      </place>
+      <place id="Decision:p_4">
+        <name>
+          <text>Decision:p_4</text>
+        </name>
+      </place>
+      <place id="Risk:source">
+        <name>
+          <text>Risk:source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="Risk:p_6">
+        <name>
+          <text>Risk:p_6</text>
+        </name>
+      </place>
+      <place id="Transaction:p_4">
+        <name>
+          <text>Transaction:p_4</text>
+        </name>
+      </place>
+      <place id="MSG:m1">
+        <name>
+          <text>MSG:m1</text>
+        </name>
+      </place>
+      <place id="Risk:p_5">
+        <name>
+          <text>Risk:p_5</text>
+        </name>
+      </place>
+      <place id="MSG:m4">
+        <name>
+          <text>MSG:m4</text>
+        </name>
+      </place>
+      <place id="Transaction:sink">
+        <name>
+          <text>Transaction:sink</text>
+        </name>
+      </place>
+      <place id="RES:riskReport">
+        <name>
+          <text>RES:riskReport</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="RES:r1">
+        <name>
+          <text>RES:r1</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <transition id="Decision:cd1cccc5-986f-4b28-8ac7-c27f2971bed8">
+        <name>
+          <text>T28</text>
+        </name>
+      </transition>
+      <transition id="Research:93ff665b-76cf-4f29-abb2-940b47a62efe">
+        <name>
+          <text>T2</text>
+        </name>
+      </transition>
+      <transition id="Research:df8569d4-5552-45b0-9e1e-eb90b5c98103">
+        <name>
+          <text>T3</text>
+        </name>
+      </transition>
+      <transition id="Compliance:de920b0f-00fb-4a45-97f9-7206c6b7f7e2">
+        <name>
+          <text>T17</text>
+        </name>
+      </transition>
+      <transition id="Compliance:db9d4338-f680-40e8-96ab-3bf38b492f96">
+        <name>
+          <text>T20</text>
+        </name>
+      </transition>
+      <transition id="Compliance:3e447910-96c2-4e4f-b0cc-006c99fffe06">
+        <name>
+          <text>T18</text>
+        </name>
+      </transition>
+      <transition id="Decision:5d43864e-47da-4e4c-90ba-c82cdbaecd74">
+        <name>
+          <text>T29</text>
+        </name>
+      </transition>
+      <transition id="SYNC:T4_T30">
+        <name>
+          <text>T4_T30</text>
+        </name>
+      </transition>
+      <transition id="Risk:8059ab98-4a56-47f5-bc39-3c7b6ed6fcfc">
+        <name>
+          <text>T5</text>
+        </name>
+      </transition>
+      <transition id="Risk:f245a307-514a-4c0d-821c-431c16c7d58b">
+        <name>
+          <text>T6</text>
+        </name>
+      </transition>
+      <transition id="Risk:57cb6190-68f1-41a0-b359-48819795df8e">
+        <name>
+          <text>T7</text>
+        </name>
+      </transition>
+      <transition id="Risk:c0ab2153-56bf-43f7-9daa-17e73dab5cac">
+        <name>
+          <text>T27</text>
+        </name>
+      </transition>
+      <transition id="Risk:700cf8a9-ea2c-426e-9204-96a150957d75">
+        <name>
+          <text>T8</text>
+        </name>
+      </transition>
+      <transition id="Research:7a2e640e-8a6f-4133-8c54-0808a2e111be">
+        <name>
+          <text>T0</text>
+        </name>
+      </transition>
+      <transition id="Research:a5e9043d-e963-4f14-8243-3af47eb6cf99">
+        <name>
+          <text>T1</text>
+        </name>
+      </transition>
+      <transition id="Decision:5ad7764f-38ce-4229-9949-8d3047a7461d">
+        <name>
+          <text>T12</text>
+        </name>
+      </transition>
+      <transition id="Compliance:2b2502bf-5dd5-4529-9191-ee9b7afbcecc">
+        <name>
+          <text>T21</text>
+        </name>
+      </transition>
+      <transition id="Compliance:d3d88903-c88c-4aba-ab1f-08b711c17878">
+        <name>
+          <text>T19</text>
+        </name>
+      </transition>
+      <transition id="Compliance:ab4b517d-3661-4507-be78-24dcc3b32f02">
+        <name>
+          <text>T22</text>
+        </name>
+      </transition>
+      <transition id="Decision:ca8acec6-7d6d-4314-a889-b55fa98326aa">
+        <name>
+          <text>T23</text>
+        </name>
+      </transition>
+      <transition id="Decision:d122084d-9eb0-4d26-8cb1-93f34fb46805">
+        <name>
+          <text>T11</text>
+        </name>
+      </transition>
+      <transition id="Decision:cdae7c24-fdac-47d2-a14d-943e3ffb340c">
+        <name>
+          <text>T10</text>
+        </name>
+      </transition>
+      <transition id="Research:6d48f467-728a-41ac-b1f0-c69196cc1cd3">
+        <name>
+          <text>T24</text>
+        </name>
+      </transition>
+      <transition id="Transaction:e872b2ec-b39c-4629-b966-9be0e4392679">
+        <name>
+          <text>T14</text>
+        </name>
+      </transition>
+      <transition id="Transaction:923f7282-4d7b-4d1b-a1b5-1ac5d41bca5d">
+        <name>
+          <text>T26</text>
+        </name>
+      </transition>
+      <transition id="Transaction:c96f8fda-d6a7-472d-a2e5-bdb9372cf34d">
+        <name>
+          <text>T15</text>
+        </name>
+      </transition>
+      <transition id="Transaction:289ce84f-6774-4240-b1da-015eba870605">
+        <name>
+          <text>T13</text>
+        </name>
+      </transition>
+      <transition id="Transaction:9a28f4c3-41b4-43d5-804b-86688bae048f">
+        <name>
+          <text>T16</text>
+        </name>
+      </transition>
+      <arc id="2273939728400" source="Decision:5ad7764f-38ce-4229-9949-8d3047a7461d" target="MSG:m3"/>
+      <arc id="2273939727888" source="Research:p_3" target="Research:a5e9043d-e963-4f14-8243-3af47eb6cf99"/>
+      <arc id="2273939721808" source="Risk:p_6" target="Risk:c0ab2153-56bf-43f7-9daa-17e73dab5cac"/>
+      <arc id="2273939725904" source="Transaction:p_4" target="Transaction:c96f8fda-d6a7-472d-a2e5-bdb9372cf34d"/>
+      <arc id="2273939730000" source="Transaction:p_6" target="Transaction:9a28f4c3-41b4-43d5-804b-86688bae048f"/>
+      <arc id="2273939732496" source="RES:r2" target="Research:93ff665b-76cf-4f29-abb2-940b47a62efe"/>
+      <arc id="2273939730128" source="Risk:700cf8a9-ea2c-426e-9204-96a150957d75" target="MSG:m2"/>
+      <arc id="2273939719952" source="Risk:source" target="Risk:8059ab98-4a56-47f5-bc39-3c7b6ed6fcfc"/>
+      <arc id="2273939726160" source="Transaction:c96f8fda-d6a7-472d-a2e5-bdb9372cf34d" target="Transaction:p_5"/>
+      <arc id="2273939730256" source="RES:r1" target="Research:a5e9043d-e963-4f14-8243-3af47eb6cf99"/>
+      <arc id="2273939728272" source="Transaction:9a28f4c3-41b4-43d5-804b-86688bae048f" target="MSG:m4"/>
+      <arc id="2273939726288" source="Transaction:923f7282-4d7b-4d1b-a1b5-1ac5d41bca5d" target="Transaction:p_6"/>
+      <arc id="2274003277328" source="Compliance:p_6" target="Compliance:2b2502bf-5dd5-4529-9191-ee9b7afbcecc"/>
+      <arc id="2274003284496" source="Decision:5d43864e-47da-4e4c-90ba-c82cdbaecd74" target="Decision:p_4"/>
+      <arc id="2274003274384" source="Compliance:2b2502bf-5dd5-4529-9191-ee9b7afbcecc" target="Compliance:p_5"/>
+      <arc id="2274003282192" source="Decision:source" target="Decision:ca8acec6-7d6d-4314-a889-b55fa98326aa"/>
+      <arc id="2274003272208" source="Compliance:ab4b517d-3661-4507-be78-24dcc3b32f02" target="Compliance:sink"/>
+      <arc id="2274003272720" source="Compliance:3e447910-96c2-4e4f-b0cc-006c99fffe06" target="Compliance:p_4"/>
+      <arc id="2274003273360" source="Compliance:de920b0f-00fb-4a45-97f9-7206c6b7f7e2" target="Compliance:p_3"/>
+      <arc id="2274003275024" source="Compliance:d3d88903-c88c-4aba-ab1f-08b711c17878" target="Compliance:p_6"/>
+      <arc id="2274003280016" source="Decision:p_8" target="Decision:cd1cccc5-986f-4b28-8ac7-c27f2971bed8"/>
+      <arc id="2274003282064" source="Decision:p_3" target="Decision:5d43864e-47da-4e4c-90ba-c82cdbaecd74"/>
+      <arc id="2274003281936" source="Decision:p_5" target="Decision:cdae7c24-fdac-47d2-a14d-943e3ffb340c"/>
+      <arc id="2273939730512" source="Research:7a2e640e-8a6f-4133-8c54-0808a2e111be" target="Research:p_3"/>
+      <arc id="2273939728656" source="Research:6d48f467-728a-41ac-b1f0-c69196cc1cd3" target="Research:p_5"/>
+      <arc id="2274003282320" source="Decision:p_4" target="SYNC:T4_T30"/>
+      <arc id="2273939728784" source="Transaction:p_3" target="Transaction:e872b2ec-b39c-4629-b966-9be0e4392679"/>
+      <arc id="2273939722704" source="Research:p_7" target="SYNC:T4_T30"/>
+      <arc id="2273939726672" source="Transaction:p_5" target="Transaction:923f7282-4d7b-4d1b-a1b5-1ac5d41bca5d"/>
+      <arc id="2273939733008" source="Research:p_4" target="Research:6d48f467-728a-41ac-b1f0-c69196cc1cd3"/>
+      <arc id="2273939720720" source="Risk:f245a307-514a-4c0d-821c-431c16c7d58b" target="Risk:p_4"/>
+      <arc id="2273939728912" source="MSG:m4" target="Compliance:3e447910-96c2-4e4f-b0cc-006c99fffe06"/>
+      <arc id="2273939730768" source="RES:r2" target="Compliance:de920b0f-00fb-4a45-97f9-7206c6b7f7e2"/>
+      <arc id="2273939727056" source="Transaction:9a28f4c3-41b4-43d5-804b-86688bae048f" target="Transaction:sink"/>
+      <arc id="2273939727184" source="Research:p_5" target="Research:93ff665b-76cf-4f29-abb2-940b47a62efe"/>
+      <arc id="2273939721104" source="Risk:700cf8a9-ea2c-426e-9204-96a150957d75" target="Risk:p_6"/>
+      <arc id="2273939729424" source="MSG:m2" target="Decision:ca8acec6-7d6d-4314-a889-b55fa98326aa"/>
+      <arc id="2273939721488" source="Risk:c0ab2153-56bf-43f7-9daa-17e73dab5cac" target="Risk:sink"/>
+      <arc id="2273939725712" source="Transaction:289ce84f-6774-4240-b1da-015eba870605" target="Transaction:p_3"/>
+      <arc id="2273939725840" source="Research:p_6" target="Research:df8569d4-5552-45b0-9e1e-eb90b5c98103"/>
+      <arc id="2273939730448" source="Research:source" target="Research:7a2e640e-8a6f-4133-8c54-0808a2e111be"/>
+      <arc id="2273939720272" source="Risk:p_4" target="Risk:57cb6190-68f1-41a0-b359-48819795df8e"/>
+      <arc id="2274003283600" source="Decision:cdae7c24-fdac-47d2-a14d-943e3ffb340c" target="Decision:p_6"/>
+      <arc id="2273939723984" source="Risk:p_3" target="Risk:f245a307-514a-4c0d-821c-431c16c7d58b"/>
+      <arc id="2274003283728" source="Decision:5ad7764f-38ce-4229-9949-8d3047a7461d" target="Decision:p_8"/>
+      <arc id="2273939730192" source="Research:a5e9043d-e963-4f14-8243-3af47eb6cf99" target="Research:p_4"/>
+      <arc id="2273939728208" source="SYNC:T4_T30" target="Research:sink"/>
+      <arc id="2273939722000" source="Risk:p_5" target="Risk:700cf8a9-ea2c-426e-9204-96a150957d75"/>
+      <arc id="2273939730320" source="Research:df8569d4-5552-45b0-9e1e-eb90b5c98103" target="RES:r2"/>
+      <arc id="2274003282640" source="SYNC:T4_T30" target="Decision:p_5"/>
+      <arc id="2274003272144" source="Compliance:p_5" target="Compliance:ab4b517d-3661-4507-be78-24dcc3b32f02"/>
+      <arc id="2274003275216" source="Compliance:p_4" target="Compliance:db9d4338-f680-40e8-96ab-3bf38b492f96"/>
+      <arc id="2274003272400" source="Compliance:p_3" target="Compliance:3e447910-96c2-4e4f-b0cc-006c99fffe06"/>
+      <arc id="2274003276240" source="Compliance:source" target="Compliance:de920b0f-00fb-4a45-97f9-7206c6b7f7e2"/>
+      <arc id="2274003272528" source="Compliance:db9d4338-f680-40e8-96ab-3bf38b492f96" target="Compliance:p_5"/>
+      <arc id="2274003273680" source="Compliance:p_4" target="Compliance:d3d88903-c88c-4aba-ab1f-08b711c17878"/>
+      <arc id="2274003282384" source="Decision:ca8acec6-7d6d-4314-a889-b55fa98326aa" target="Decision:p_3"/>
+      <arc id="2274003282896" source="Decision:p_6" target="Decision:d122084d-9eb0-4d26-8cb1-93f34fb46805"/>
+      <arc id="2274003283408" source="Decision:d122084d-9eb0-4d26-8cb1-93f34fb46805" target="Decision:p_7"/>
+      <arc id="2274003284112" source="Decision:p_7" target="Decision:5ad7764f-38ce-4229-9949-8d3047a7461d"/>
+      <arc id="2274003284240" source="Decision:cd1cccc5-986f-4b28-8ac7-c27f2971bed8" target="Decision:sink"/>
+      <arc id="2273939726480" source="Research:93ff665b-76cf-4f29-abb2-940b47a62efe" target="Research:p_6"/>
+      <arc id="2273939724496" source="Research:df8569d4-5552-45b0-9e1e-eb90b5c98103" target="Research:p_7"/>
+      <arc id="2273939728592" source="MSG:m3" target="Transaction:289ce84f-6774-4240-b1da-015eba870605"/>
+      <arc id="2273939720656" source="Risk:8059ab98-4a56-47f5-bc39-3c7b6ed6fcfc" target="Risk:p_3"/>
+      <arc id="2273939730960" source="Compliance:ab4b517d-3661-4507-be78-24dcc3b32f02" target="RES:r2"/>
+      <arc id="2273939730384" source="RES:riskReport" target="Decision:5d43864e-47da-4e4c-90ba-c82cdbaecd74"/>
+      <arc id="2273939727248" source="Research:df8569d4-5552-45b0-9e1e-eb90b5c98103" target="MSG:m1"/>
+      <arc id="2273939725264" source="Transaction:source" target="Transaction:289ce84f-6774-4240-b1da-015eba870605"/>
+      <arc id="2273939727376" source="MSG:m1" target="Risk:8059ab98-4a56-47f5-bc39-3c7b6ed6fcfc"/>
+      <arc id="2273939721296" source="Risk:57cb6190-68f1-41a0-b359-48819795df8e" target="Risk:p_5"/>
+      <arc id="2273939727504" source="Transaction:e872b2ec-b39c-4629-b966-9be0e4392679" target="Transaction:p_4"/>
+      <arc id="2273939729616" source="Research:df8569d4-5552-45b0-9e1e-eb90b5c98103" target="RES:r1"/>
+      <arc id="2273939729744" source="RES:r1" target="Compliance:3e447910-96c2-4e4f-b0cc-006c99fffe06"/>
+      <arc id="2273939731856" source="Risk:c0ab2153-56bf-43f7-9daa-17e73dab5cac" target="RES:riskReport"/>
+      <arc id="2273939729872" source="Compliance:ab4b517d-3661-4507-be78-24dcc3b32f02" target="RES:r1"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="Compliance:sink">
+          <text>1</text>
+        </place>
+        <place idref="Decision:sink">
+          <text>1</text>
+        </place>
+        <place idref="Research:sink">
+          <text>1</text>
+        </place>
+        <place idref="Risk:sink">
+          <text>1</text>
+        </place>
+        <place idref="Transaction:sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

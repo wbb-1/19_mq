@@ -1,0 +1,96 @@
+{
+  "n0_metrics": {
+    "fitness": 0.9663061697479571,
+    "precision": 0.9050606283381015,
+    "f_measure": 0.9346811860224653,
+    "fitness_details": {
+      "total_consumed": 785074,
+      "total_produced": 841801,
+      "total_missing": 0,
+      "total_remaining": 56727,
+      "trace_count": 18909
+    },
+    "precision_details": {
+      "precision": 0.9050606283381015
+    }
+  },
+  "n1_metrics": {
+    "fitness": 0.9663061697479571,
+    "precision": 0.9050606283381015,
+    "f_measure": 0.9346811860224653,
+    "fitness_details": {
+      "total_consumed": 785074,
+      "total_produced": 841801,
+      "total_missing": 0,
+      "total_remaining": 56727,
+      "trace_count": 18909
+    },
+    "precision_details": {
+      "precision": 0.9050606283381015
+    }
+  },
+  "metadata": {
+    "departments": [
+      "Compliance",
+      "Decision",
+      "Research",
+      "Risk",
+      "Transaction"
+    ],
+    "sync_tasks": [
+      "T4_T30"
+    ],
+    "messages": {
+      "m4": [
+        "T16",
+        "T18"
+      ],
+      "m3": [
+        "T12",
+        "T13"
+      ],
+      "m1": [
+        "T3",
+        "T5"
+      ],
+      "m2": [
+        "T8",
+        "T23"
+      ]
+    },
+    "resources": {
+      "riskReport": [
+        [
+          "T29"
+        ],
+        [
+          "T27"
+        ]
+      ],
+      "r2": [
+        [
+          "T2",
+          "T17"
+        ],
+        [
+          "T3",
+          "T22"
+        ]
+      ],
+      "r1": [
+        [
+          "T1",
+          "T18"
+        ],
+        [
+          "T3",
+          "T22"
+        ]
+      ]
+    },
+    "total_cases": 18909,
+    "total_events": 501439
+  },
+  "repair_report": null,
+  "iterations": 3
+}
